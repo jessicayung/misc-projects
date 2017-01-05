@@ -10,7 +10,7 @@ We found that the coefficient on `is_esl` was -0.696 and was non-zero at the 99%
 
 
 ### 2. Data preprocessing:
-1. Download (copy) speaker tabs from WUDC2017, Oxford IV 2016 and Cambridge IV 2016.
+1. Download (copy) speaker tabs from WUDC2017, Oxford IV 2016 and Cambridge IV 2016. [Tabbie.org](https://www.tabbie.org/)
 
 2. Remove speakers who have not completed all five rounds or are swing speakers from the tab.
     * If speakers have not completed all five rounds, they may have been ill and so other confounding factors likely affected their performance.
