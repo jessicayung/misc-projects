@@ -1,6 +1,6 @@
 ## Comparing speaker points for EPL vs ESL speakers at WUDC 2017 vs Oxford and Cambridge IVs 2016
 
-*Jessica Yung, 5 January 2017. Idea and previous tests run by Lucia Arce and Jure Heredith.*
+*Jessica Yung, 5 January 2017. Idea and previous tests run by Lucia Arce and Jure Hederih.*
 
 
 ### 1. Summary
