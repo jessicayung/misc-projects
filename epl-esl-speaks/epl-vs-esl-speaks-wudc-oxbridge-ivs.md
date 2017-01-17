@@ -6,7 +6,7 @@
 ### 1. Summary
 For each speaker in our dataset, we regressed their WUDC 2017 average speaker score on (1) the average of their non-zero average speaker score(s) at the Oxford and Cambridge IVs 2016 and (2) whether or not they had ESL status. There were 193 speakers in our dataset, 62 of whom had ESL status.
 
-We found that the coefficient on `is_esl` was -0.696 and was non-zero at the 99% confidence level (t-stat of -2.77). Thus, **there is sufficient evidence at the 1% significance level to reject the claim that there is no bias towards ESL speakers that existed at WUDC 2017 compared to the Oxford and Cambridge IVs 2016**.
+We found that the coefficient on `is_esl` was -0.696 and was non-zero at the 99% confidence level (t-stat of -2.77). Thus, **there is sufficient evidence at the 1% significance level to reject the claim that there is no bias towards ESL speakers that existed at WUDC 2017 compared to the Oxford and Cambridge IVs 2016** Specifically, it **appears that there is a negative bias towards ESL speakers at WUDC 2017 compared to the Oxford and Cambridge IVs 2016**.
 
 
 ### 2. Data preprocessing:
@@ -41,7 +41,7 @@ We regress `wudc2017_avg` on `is_esl` and `mean_ox_cam_ivs_2016`.
 
 ![Average Speaks for WUDC and Oxbridge IVs 2016](avg-speaks-wudc-oxbridge-2016-regression-results.png)
 
-We found that the coefficient on `is_esl` was -0.696 and was non-zero at the 99% confidence level (t-stat of -2.77). Thus, **there is sufficient evidence at the 1% significance level to reject the claim that there is no bias towards ESL speakers that existed at WUDC 2017 compared to the Oxford and Cambridge IVs 2016**.
+We found that the coefficient on `is_esl` was -0.696 and was non-zero at the 99% confidence level (t-stat of -2.77). Thus, **there is sufficient evidence at the 1% significance level to reject the claim that there is no bias towards ESL speakers that existed at WUDC 2017 compared to the Oxford and Cambridge IVs 2016**. Specifically, it **appears that there is a negative bias towards ESL speakers at WUDC 2017 compared to the Oxford and Cambridge IVs 2016**.
 
 
 ### 5. Caveats and Improvements
