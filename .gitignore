@@ -1,0 +1,5 @@
+epl-esl-speaks/data
+
+*.gz
+
+*.tsv
