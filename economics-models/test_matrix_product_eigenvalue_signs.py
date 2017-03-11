@@ -15,36 +15,46 @@ def check_eigenvalues_positive(matrix):
 
     result = False
 
+    if (a + d <= 0) or (a*d-b*c <= 0) or (((a + d)**2 - 4*(a*d-b*c)) < 0):
+        pass
+    else:
+        # print("All conditions satisfied.")
+        result = True
+
+    return result
+
+    """
     if a + d <= 0:
-        print("Condition 1 not satisfied.")
+        # print("Condition 1 not satisfied.")
     elif a*d-b*c <= 0:
-        print("Condition 2 not satisfied.")
-    elif ((a + d)**2 - 4*(a*d-b*c)) >= 0:
-        print("Condition 3 not satisfied.")
+        # print("Condition 2 not satisfied.")
+    elif ((a + d)**2 - 4*(a*d-b*c)) < 0:
+        # print("Condition 3 not satisfied.")
+    """
+
+
+def check_eigenvalues_negative(matrix, print=False):
+    a, b, c, d = read_matrix(matrix)
+
+    result = False
+
+    if a + d >= 0 or a*d-b*c <= 0 or ((a + d)**2 - 4*(a*d-b*c)) < 0:
+        pass
     else:
         print("All conditions satisfied.")
         result = True
 
     return result
 
-
-def check_eigenvalues_negative(matrix):
-    a, b, c, d = read_matrix(matrix)
-
-    result = False
-
+    """    
     if a + d >= 0:
         print("Condition 1 not satisfied.")
     elif a*d-b*c <= 0:
         print("Condition 2 not satisfied.")
 
-    elif ((a + d)**2 - 4*(a*d-b*c)) >= 0:
+    elif ((a + d)**2 - 4*(a*d-b*c)) < 0:
         print("Condition 3 not satisfied.")
-    else:
-        print("All conditions satisfied.")
-        result = True
-
-    return result
+    """
 
 
 def eigenvalues(matrix):
@@ -119,4 +129,4 @@ def is_product_of_three_matrices_neg_eigen(matrices):
 is_product_of_two_matrices_neg_eigen(generate_pos_eigen_matrices(20))
 
 # Question 6c
-is_product_of_three_matrices_neg_eigen(generate_pos_eigen_matrices(20))
+# is_product_of_three_matrices_neg_eigen(generate_pos_eigen_matrices(20))
