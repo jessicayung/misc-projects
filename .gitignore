@@ -5,3 +5,11 @@ epl-esl-speaks/data
 *.tsv
 
 *.xcodeproj
+
+.idea/
+
+.ipynb_checkpoints/
+
+cpp/
+
+economics-models/__pycache__/
