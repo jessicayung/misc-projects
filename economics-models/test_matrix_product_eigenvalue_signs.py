@@ -33,7 +33,7 @@ def check_eigenvalues_positive(matrix):
     """
 
 
-def check_eigenvalues_negative(matrix, print=False):
+def check_eigenvalues_negative(matrix):
     a, b, c, d = read_matrix(matrix)
 
     result = False
@@ -129,4 +129,4 @@ def is_product_of_three_matrices_neg_eigen(matrices):
 is_product_of_two_matrices_neg_eigen(generate_pos_eigen_matrices(20))
 
 # Question 6c
-# is_product_of_three_matrices_neg_eigen(generate_pos_eigen_matrices(20))
+is_product_of_three_matrices_neg_eigen(generate_pos_eigen_matrices(20))
